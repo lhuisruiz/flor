@@ -1029,7 +1029,7 @@ body {
 }
 .long-g--6 {
   left: 0vmin;
-  bottom: -20vmin;
+  bottom: -2vmin;
   z-index: 100;
   filter: blur(0.3vmin);
   transform: scale(0.8) rotate(2deg);
