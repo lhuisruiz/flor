@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px solid red;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.p{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txtp{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: center;
+}
+.p-img{
+    width: 90%;
+    height: auto;
+}
+.p{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nota{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+p{
+    text-align: center;
+    margin: 15px;
+
+}
+
+.zd{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.z{
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
