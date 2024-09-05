@@ -1,15 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    border: 0px solid red;
+    border: 0px solid rgba(255, 0, 0, 0);
 }
 
-body{
+body {
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
-.p{
+.centro {
+    width: 500px;
+
+}
+
+@media screen and (max-width:574px) {
+
+
+
+    .centro {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 0, 0, 0);
+    }
+}
+
+.p {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -17,23 +35,26 @@ body{
     align-items: center;
     flex-direction: column;
 }
-.txtp{
+
+.txtp {
     font-family: "Cedarville Cursive", cursive;
     font-weight: 400;
     font-style: normal;
     color: black;
     text-align: center;
 }
-.p-img{
+
+.p-img {
     width: 90%;
     height: auto;
 }
-.p{
+
+.p {
     background-color: rgb(255, 255, 255);
 
 }
 
-.nota{
+.nota {
     width: 100%;
     height: auto;
     display: flex;
@@ -41,13 +62,14 @@ body{
     align-items: center;
     margin-bottom: 100px;
 }
-p{
+
+p {
     text-align: center;
     margin: 15px;
 
 }
 
-.zd{
+.zd {
     width: 80%;
     height: auto;
     display: flex;
@@ -61,7 +83,7 @@ p{
     margin-bottom: 40px;
 }
 
-.z{
+.z {
     width: 70px;
     height: auto;
     margin: 10px;
